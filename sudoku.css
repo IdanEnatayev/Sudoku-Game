@@ -1,0 +1,455 @@
+/* The Background */
+
+html {
+    background-image: url("images/background10.png");
+
+}
+
+/* The first Page */
+
+
+/* Title */
+
+#tItle {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+
+
+    background-image: linear-gradient(-225deg,
+
+            rgb(0, 166, 255) 0%,
+            cyan 30%,
+            rgb(23, 68, 172) 70%,
+            white 100%);
+
+    align-items: center;
+    text-shadow: 2px 4px 0.5px white;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* Login's Container */
+
+.containerLogin {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 4px -4px black;
+    margin-top: 100px;
+
+}
+
+/* Enter User Name */
+
+#userName {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+    width: 25%;
+    margin-left: 37%;
+    font-size: 24px;
+
+
+}
+
+/* Error Message */
+
+#label1 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+    color: crimson;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 100px;
+    display: none;
+}
+
+/* Enter Password */
+
+#passWord {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 15px;
+    font-size: 24px;
+
+}
+
+/* Login Button */
+
+#loginButtom {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 8px;
+    border: transparent;
+    background-color: transparent;
+    width: 316px;
+    color: white;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 100px;
+
+
+    background-image: linear-gradient(-225deg,
+
+            rgb(0, 166, 255) 0%,
+            cyan 30%,
+            rgb(23, 68, 172) 70%,
+            white 100%);
+
+    align-items: center;
+    text-shadow: 2px 4px 0.5px white;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+}
+
+
+/* Hyper Link */
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Hover On Hyper Link */
+
+a:hover {
+    font-weight: bolder;
+}
+
+a:visited {
+    font-weight: bolder;
+}
+
+a:active {
+    font-weight: bolder;
+}
+
+#loginButtom:hover {
+    font-weight: bold;
+
+}
+
+/* The Second Page */
+
+
+/* Title for The Second Page */
+
+#tItle2 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+
+    background-image: linear-gradient(-225deg,
+
+            rgb(0, 166, 255) 0%,
+            cyan 30%,
+            rgb(23, 68, 172) 70%,
+            white 100%);
+
+    align-items: center;
+    text-shadow: 2px 4px 0.5px white;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+}
+
+/* Subtitle */
+
+#aNODERTITLE {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+
+    background-image: linear-gradient(-225deg,
+
+            rgb(0, 166, 255) 0%,
+            cyan 30%,
+            rgb(23, 68, 172) 70%,
+            white 100%);
+
+    align-items: center;
+    text-shadow: 2px 4px 0.5px white;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+}
+
+/* Container Of Level Buttons */
+
+#button3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Difficulty Level Button - Easy */
+
+#baby {
+    background-color: transparent;
+    border: transparent;
+    background-image: url("images/baby.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Difficulty Level Button - Normal */
+
+#adult {
+
+    background-color: transparent;
+    border: transparent;
+    background-image: url("images/adult.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+/* Difficulty Level Button - Hard */
+
+#oldman {
+
+    background-color: transparent;
+    border: transparent;
+    background-image: url("images/oldman.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+
+/* Container for Difficulty Level Caption Under The Button */
+
+#divDifficult {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Difficulty Level Caption Under The Button - Easy */
+
+#divDifficultEasy {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    word-spacing: 20px;
+    margin-left: 4px;
+    background-image: linear-gradient(-225deg,
+
+            greenyellow 0%,
+            white 29%,
+            green 67%,
+            white 100%);
+
+    align-items: center;
+    text-shadow: 3px 3px 1px white;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+}
+
+/* Difficulty Level Caption Under The Button - Normal */
+
+#divDifficultNormal {
+
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    word-spacing: 20px;
+    margin-left: 4px;
+    background-image: linear-gradient(-225deg,
+
+            #FFFF00 0%,
+            white 29%,
+            #aeae00 67%,
+            white 100%);
+
+    align-items: center;
+    text-shadow: 3px 3px 1px white;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+}
+
+/* Difficulty Level Caption Under The Button - Hard */
+
+#divDifficultHard {
+
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    word-spacing: 20px;
+    margin-left: 4px;
+    background-image: linear-gradient(-225deg,
+
+            crimson 0%,
+            white 29%,
+            rgb(181, 0, 36) 70%,
+            white 100%);
+
+    align-items: center;
+    text-shadow: 3px 3px 1px white;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+}
+
+
+/* The Third Page */
+
+
+/* Title */
+
+#tItle3 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+
+    background-image: linear-gradient(-225deg,
+
+            rgb(0, 166, 255) 0%,
+            cyan 30%,
+            rgb(23, 68, 172) 70%,
+            white 100%);
+
+    align-items: center;
+    text-shadow: 2px 4px 0.5px white;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+}
+
+/* The Sudoku Board */
+
+.inputation {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 1px #ccc solid;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: -2px;
+}
+
+/* Div For The Sudoku Board */
+
+#sudokuDiv {
+    display: flex;
+    justify-content: center;
+}
+
+/* Container of the clearing and checking the board */
+
+#button2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* The Clearing And Checking Buttons*/
+
+.button2 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    border: none;
+    background-color: white;
+    width: 150px;
+    color: #3598dc;
+    font-size: 25px;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+/*Hover On The Clearing And Checking Buttons*/
+
+.button2:hover {
+    background-color: turquoise;
+    font-weight: bold;
+    color: white;
+}
+
+/* Container of Error Message */
+
+#label2Div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Error Message */
+
+#label2 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+    color: crimson;
+    display: none;
+}
